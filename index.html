@@ -3,48 +3,64 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>backbone demo ds2014</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/b31ab1a2.main.css">
-        <script src="scripts/vendor/d7100892.modernizr.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    
+    <title>backbone demo ds2014</title>
+
+    <link rel="stylesheet" href="http://js.arcgis.com/3.8/js/esri/css/esri.css">
+
+    <link rel="stylesheet" href="styles/096f7cc2.main.css">
+    <script src="scripts/vendor/d7100892.modernizr.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
 
-        <div class="hero-unit">
-          <h1>'Allo, 'Allo!!!</h1>
-          <p>You now have</p>
-          <ul>
-            <li>HTML5 Boilerplate</li>
-            <li>jQuery</li>
-            <li>Backbone.js</li>
-            <li>Underscore.js</li>
-            <li>Modernizr</li>
+    <div id="loading" class="shadow loading">
+      Getting Latest Gas Price Data...
+      <img src="http://dl.dropbox.com/u/2654618/loading_gray_circle.gif">
+    </div>
 
-          </ul>
-        </div>
+    <div id="legend" class="shadow info"></div>
+
+    <div data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design:'headline',gutters:false" style="width: 100%; height: 100%; margin: 0">
+      <div id="map" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'center'"> 
+        
+        <div id="title" class="shadow info">Current Gas Prices by State</div>
+
+      </div>
+    </div>
 
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        // <script>
-        //     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        //     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        //     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        //     e.src='//www.google-analytics.com/analytics.js';
-        //     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        //     ga('create','UA-XXXXX-X');ga('send','pageview');
-        // </script>
 
-        <script src="scripts/a084fdc3.vendor.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    //     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    //     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    //     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    //     e.src='//www.google-analytics.com/analytics.js';
+    //     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    //     ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
 
-        <script src="scripts/e208b856.main.js"></script>
-</body>
+    <script>
+      var dojoConfig = { 
+        packages: [{
+          name: "extras",
+          location: "/scripts/extras"
+        }]
+      };
+    </script>
+    <script src="http://js.arcgis.com/3.8/"></script>
+
+
+    <script src="scripts/a084fdc3.vendor.js"></script>
+
+    <script src="scripts/df164761.main.js"></script>
+  </body>
 </html>
