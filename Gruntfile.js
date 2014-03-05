@@ -230,9 +230,16 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/{,*/}*.*',
+                        'extras/*'
                     ]
                 }]
             }
+        },
+        'gh-pages': {
+          options: {
+            base: 'dist'
+          },
+          src: '**/*'
         },
         jst: {
             compile: {
@@ -334,4 +341,10 @@ module.exports = function (grunt) {
         'test',
         'build'
     ]);
+
+    grunt.loadNpmTasks('grunt-gh-pages');    
+    grunt.registerTask("deploy", [
+        'build',
+        'gh-pages'
+    ]); 
 };
