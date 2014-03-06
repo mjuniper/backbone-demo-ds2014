@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="http://js.arcgis.com/3.8/js/esri/css/esri.css">
 
-    <link rel="stylesheet" href="styles/096f7cc2.main.css">
+    <link rel="stylesheet" href="styles/c4743e3c.main.css">
     <script src="scripts/vendor/d7100892.modernizr.js"></script>
   </head>
   <body>
@@ -27,20 +27,21 @@
     </div>
 
     <div id="legend" class="shadow info"></div>
+    
+    <div id="map"></div>
+    
+    <div id="title" class="shadow info">Current Gas Prices by State</div>
 
-    <div data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design:'headline',gutters:false" style="width: 100%; height: 100%; margin: 0">
-      <div id="map" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'center'"> 
-        
-        <div id="title" class="shadow info">Current Gas Prices by State</div>
-
-      </div>
-    </div>
-
-
+    
+    <script>
+      var dojoConfig = { 
+        useDeferredInstrumentation:true
+      };
+    </script>
     <script src="http://js.arcgis.com/3.8/"></script>
 
     <script src="scripts/a084fdc3.vendor.js"></script>
 
-    <script src="scripts/d754e3cc.main.js"></script>
+    <script src="scripts/004edc3f.main.js"></script>
   </body>
 </html>
