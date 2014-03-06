@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"gas",
+				"gasPricesCollection"
+			],
+			[
 				"respons",
 				"responseText"
 			],
@@ -176,29 +180,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/index.html",
-			"settings":
-			{
-				"buffer_size": 2507,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".editorconfig",
-			"settings":
-			{
-				"buffer_size": 415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/*global backboneDemoDs2014, $*/\n\n\nwindow.backboneDemoDs2014 = {\n    Models: {},\n    Collections: {},\n    Views: {},\n    Routers: {},\n    init: function () {\n        'use strict';\n        console.log('Hello from Backbone!');\n    }\n};\n\n$(document).ready(function () {\n    'use strict';\n    backboneDemoDs2014.init();\n});  \n",
 			"file": "app/scripts/main.js",
-			"file_size": 320,
-			"file_write_time": 1393967549000000,
 			"settings":
 			{
-				"buffer_size": 322,
+				"buffer_size": 6253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 8230,
 				"line_ending": "Unix"
 			}
 		}
@@ -263,6 +256,18 @@
 	},
 	"file_history":
 	[
+		"/Users/mjuniper/dev/backbone-demo-ds2014/test/spec/test.js",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/Gruntfile.js",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/test/index.html",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/test/spec/GasPricesCollection_spec.js",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/test/spec/GasPriceModel_spec.js",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/app/index.html",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/.jshintrc",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/app/styles/main.css",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/app/extras/Tip.js",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/app/scripts/extras/tip.js",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/.editorconfig",
+		"/Users/mjuniper/dev/backbone-demo-ds2014/app/scripts/main.js",
 		"/Users/mjuniper/dev/composer/app/assets/javascripts/spec/modules/site/site_view.spec.js",
 		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/modules/site/widget_view.js",
 		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/modules/site/templates/edit_widget_dialog.jst.ejs",
@@ -378,19 +383,7 @@
 		"/Users/mjuniper/dev/composer/app/controllers/application_controller.rb",
 		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/modules/titlebar/search/search_view.js",
 		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/components/mapwidget/map_widget_view.js",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/components/mapmanager/mapmanager.js",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/components/mapwidget/map_widget_controller.js",
-		"/Users/mjuniper/dev/composer/app/views/layouts/_head.html.erb",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/components/copier/copier_controller.js",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/bower_components/custom/rss-widget.html",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/spec/entities/Dataset.spec.js",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/modules/site/templates/_rss_widget.jst.ejs",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/lib/jquery.jfeed.js",
-		"/Users/mjuniper/dev/composer/tmp/cache/i18n-js.yml",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/entities/Filter.js",
-		"/Users/mjuniper/dev/composer/app/assets/javascripts/spec/entities/Filter.spec.js",
-		"/Users/mjuniper/dev/composer/app/assets/stylesheets/dataset-info.css.scss",
-		"/Users/mjuniper/dev/composer/app/assets/stylesheets/lib/slick.grid.css"
+		"/Users/mjuniper/dev/composer/app/assets/javascripts/backbone/components/mapmanager/mapmanager.js"
 	],
 	"find":
 	{
@@ -447,6 +440,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"test",
+			"\"",
+			"formatDollars",
+			"findGasPrice",
+			"formatDollars",
+			"gasMax",
+			"statepri",
+			"pricesError",
+			"formatDollars",
+			"calcBreaks",
+			"findGasPrice",
+			"uglify",
 			"trigger",
 			"onLayoutUpdated",
 			"getLayoutHtml",
@@ -562,19 +567,7 @@
 			"_addToMethodQueue",
 			"insertbefore",
 			"//request in the other esri requirements",
-			"_resizeMap",
-			"resiz",
-			"resize",
-			"layout",
-			"layou",
-			"slickg",
-			"pendingTrans",
-			"_loadd",
-			"_loadDojo",
-			"createMap",
-			"App.execute('map:create'",
-			"createMap",
-			"App.startTimer('map:create"
+			"_resizeMap"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -582,6 +575,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'",
 			"this.dataset"
 		],
 		"reverse": false,
@@ -593,75 +587,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/index.html",
-					"settings":
-					{
-						"buffer_size": 2507,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1226,
-								1226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".editorconfig",
-					"settings":
-					{
-						"buffer_size": 415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								132,
-								132
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "app/scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 322,
+						"buffer_size": 6253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								319,
-								319
+								61,
+								125
 							]
 						],
 						"settings":
@@ -670,6 +612,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 8230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5942,
+								6027
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5499.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
