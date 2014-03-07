@@ -177,8 +177,6 @@ if (!this.backboneDemoDs2014 || typeof this.backboneDemoDs2014 !== 'object') {
 $(function () {
   'use strict';
   require([
-    'dojo/json',
-    'dojo/_base/connect',
     'dojo/_base/Color',
     'dojo/number',
     
@@ -190,10 +188,7 @@ $(function () {
     'esri/renderers/ClassBreaksRenderer',
 
     'esri/layers/FeatureLayer',
-    'esri/dijit/Legend',
-    'esri/request',
-
-    'dojo/domReady!'
+    'esri/dijit/Legend'
   ], function() {
         var mapView = new backboneDemoDs2014.MapView();
       }

@@ -47,6 +47,12 @@ body {
   /*top: 15px;*/
   width: 16em;
 }
+#title img {
+  height: 35px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 #legend {
   bottom: 15px;
   height: 11.5em;
