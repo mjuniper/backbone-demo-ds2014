@@ -7,3 +7,6 @@ A port of [This esri demo](http://developers.arcgis.com/javascript/samples/data_
 
 Resources:
 ----------
+* http://backbonejs.org/
+* http://marionettejs.com/
+* http://backplug.io/
